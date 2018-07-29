@@ -22,13 +22,13 @@
 		 </property>  
 	</bean>   -->
 	
-	<!--  二、配置BeanNameUrlHandlerMapping，bean name就当做url 
+	<!--  二、配置BeanNameUrlHandlerMapping，bean name就当做url -->
 	  <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
-	  <bean name="/he2.do" class="com.je.sunhao.controller.HelloController"></bean>-->
+	  <bean name="/he2.do" class="com.je.sunhao.controller.HelloController"></bean>
 	  
-	<!--  三、配置SimpleControllerHandlerAdapter-->
+	<!--  三、配置SimpleControllerHandlerAdapter
 	<bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"/>
-	<bean name="/he3.do" class="com.je.sunhao.controller.HelloController"/> 
+	<bean name="/he3.do" class="com.je.sunhao.controller.HelloController"/> -->
 
 	<!--<bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>  
 	 <bean name="/he4.do" class="com.je.sunhao.controller.HelloController">
